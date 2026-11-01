@@ -190,7 +190,7 @@ def run_tests(test_paths: list[str]) -> int:
         Pytest's exit code (0 = all passed, non-zero = failure/error).
     """
     cmd = [sys.executable, "-m", "pytest", "-v"] + test_paths
-    print(f"\n[router] Running: {' '.join(cmd)}\n")
+    print(f"\n[router] Running: {' '.join(cmd)}\n", flush=True)
     result = subprocess.run(cmd)
     return result.returncode
 
