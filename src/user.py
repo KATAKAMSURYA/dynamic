@@ -47,3 +47,4 @@ def create_user(name: str, email: str) -> dict | None:
 
     return {"name": name, "email": email}
 # Experiment 3 comment — user module updated
+# User routing experiment
