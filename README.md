@@ -313,3 +313,4 @@ The workflow **fails** if any selected tests fail, providing a genuine quality g
 ## Conclusion
 
 This project demonstrates that selective test execution is achievable with a small amount of Python and Git knowledge. The router correctly identifies changed modules, maps them to tests, and provides a reliable full-suite fallback for safety. Integrating this pattern into GitHub Actions brings the benefits of fast, targeted CI to any Python project.
+

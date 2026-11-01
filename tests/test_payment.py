@@ -40,3 +40,4 @@ class TestProcessPayment:
     def test_invalid_payment_exceeds_limit(self):
         """Amounts above the upper limit must be rejected."""
         assert process_payment(10_001.00) is False
+

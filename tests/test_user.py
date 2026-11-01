@@ -38,3 +38,4 @@ class TestCreateUser:
     def test_invalid_user_empty_email(self):
         """Empty e-mail must return None."""
         assert create_user("Charlie", "") is None
+

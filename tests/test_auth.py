@@ -40,3 +40,4 @@ class TestLogin:
     def test_invalid_login_empty_password(self):
         """Empty password must be rejected (return False)."""
         assert login("admin", "") is False
+

@@ -83,3 +83,4 @@ class TestNormalise:
 
     def test_combined_backslash_and_dot_slash(self):
         assert normalise(".\\src\\auth.py") == "src/auth.py"
+
