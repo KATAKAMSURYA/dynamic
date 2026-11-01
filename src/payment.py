@@ -29,3 +29,4 @@ def process_payment(amount: float) -> bool:
         return False
 
     return _MIN_AMOUNT <= amount <= _MAX_AMOUNT
+# Experiment 2 comment — payment module updated
